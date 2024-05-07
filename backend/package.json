@@ -1,7 +1,7 @@
 {
   "name": "project1",
   "version": "1.0.0",
-  "description": "a backend from chai aur code channel - YT",
+  "description": "a backend project.",
   "type": "module",
   "main": "index.js",
   "scripts": {
