@@ -48,7 +48,7 @@ const LoggedIn = () => {
       }
     };
     fetchUser();
-  }, [isAuthenticated])
+  }, [isAuthenticated, user]);
 
   return (
     <>
