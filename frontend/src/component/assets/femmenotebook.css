@@ -1,0 +1,67 @@
+.h1 h1 {
+    font-size: 36px;
+    background-color: #e67e22;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style the notepad content */
+.notepad {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+/* Style the date input */
+input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the save button */
+button {
+    background-color: #e67e22;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #e67e22;
+}
+
+/* Style the saved notes */
+.saved-notes {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the disclaimer */
+#disclaimer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}

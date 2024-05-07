@@ -1,0 +1,102 @@
+.body {
+    background-image: url('bookshelf-background.jpg');
+    /* Change to your bookshelf image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Forgot Password Page Styles */
+.forgot-password-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Add a semi-transparent background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    /* Limit the width for better readability */
+}
+
+.forgot-password-heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form {
+    text-align: center;
+}
+
+.forgot-password-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.forgot-password-form .reset-button {
+    background-color: #e67e22;
+
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.forgot-password-form .reset-button:hover {
+    background-color: #ffdb4d;
+}
+
+/* Book-related styles */
+.book-icon {
+    font-size: 40px;
+    color: #333;
+}
+
+/* Additional Features */
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login-heading {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.social-login-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-login-button {
+    background-color: #3578e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.social-login-button:hover {
+    background-color: #2e66c1;
+}
